@@ -1,0 +1,3925 @@
+Started GET "/" for 127.0.0.1 at 2023-11-12 15:48:23 +0300
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 1449.3ms | Allocations: 107039)
+Completed 200 OK in 1574ms (Views: 1557.7ms | ActiveRecord: 0.0ms | Allocations: 115592)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:06:24 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 600.3ms | Allocations: 39853)
+Completed 200 OK in 920ms (Views: 879.1ms | ActiveRecord: 0.0ms | Allocations: 44448)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:07:36 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 98.3ms | Allocations: 38059)
+Completed 200 OK in 148ms (Views: 140.2ms | ActiveRecord: 0.0ms | Allocations: 42654)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:08:01 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2354)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 2602)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:12:19 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 99.6ms | Allocations: 38054)
+Completed 200 OK in 150ms (Views: 144.9ms | ActiveRecord: 0.0ms | Allocations: 42650)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:16:21 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 108.1ms | Allocations: 38217)
+Completed 200 OK in 162ms (Views: 156.5ms | ActiveRecord: 0.0ms | Allocations: 42812)
+
+
+Started GET "/output?arrayInput=9+20+17" for 127.0.0.1 at 2023-11-12 21:16:30 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:16:31 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2392)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 2638)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-12 21:16:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:16:33 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2401)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 2646)
+
+
+Started GET "/output?arrayInput=9+20+17" for 127.0.0.1 at 2023-11-12 21:16:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:16:39 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2407)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2652)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:18:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 106.9ms | Allocations: 38161)
+Completed 200 OK in 140ms (Views: 133.4ms | ActiveRecord: 0.0ms | Allocations: 42756)
+
+
+Started GET "/output?arrayInput=9+20+17" for 127.0.0.1 at 2023-11-12 21:18:46 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"arrayInput"=>"9 20 17"}
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/output.html.erb within layouts/application
+  Rendered proxy/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2494)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:28:33 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 326)
+  Rendered layout layouts/application.html.erb (Duration: 80.8ms | Allocations: 38204)
+Completed 200 OK in 132ms (Views: 126.3ms | ActiveRecord: 0.0ms | Allocations: 42799)
+
+
+Started GET "/output?arrayInput=9+20+17" for 127.0.0.1 at 2023-11-12 21:28:38 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"arrayInput"=>"9 20 17"}
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/output.html.erb within layouts/application
+  Rendered proxy/output.html.erb within layouts/application (Duration: 1.0ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2506)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 2830)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:36:11 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 101.0ms | Allocations: 38172)
+Completed 200 OK in 158ms (Views: 153.5ms | ActiveRecord: 0.0ms | Allocations: 42767)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:36:43 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2363)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2611)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-12 21:36:45 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"arrayInput"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/output.html.erb within layouts/application
+  Rendered proxy/output.html.erb within layouts/application (Duration: 0.7ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2498)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2819)
+
+
+Started GET "/output?arrayInput=a+s+12" for 127.0.0.1 at 2023-11-12 21:36:53 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"arrayInput"=>"a s 12"}
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/output.html.erb within layouts/application
+  Rendered proxy/output.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2349)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2609)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-11-12 21:40:30 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:40:55 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 85.2ms | Allocations: 36592)
+Completed 200 OK in 127ms (Views: 122.3ms | ActiveRecord: 0.0ms | Allocations: 38467)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-12 21:41:00 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 431)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-12 21:41:05 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-12 21:41:09 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-12 21:42:14 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 87.4ms | Allocations: 38110)
+Completed 200 OK in 146ms (Views: 139.3ms | ActiveRecord: 0.0ms | Allocations: 42705)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-12 21:42:17 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 309)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-12 21:42:21 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-13 11:12:56 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 644.0ms | Allocations: 38180)
+Completed 200 OK in 992ms (Views: 948.0ms | ActiveRecord: 0.0ms | Allocations: 42777)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-13 11:13:00 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 307)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-13 11:13:04 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-13 11:13:08 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-13 11:13:12 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-14 11:05:57 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 559.2ms | Allocations: 38313)
+Completed 200 OK in 725ms (Views: 704.4ms | ActiveRecord: 0.0ms | Allocations: 42908)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-14 11:06:00 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 312)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-14 11:06:06 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-14 11:09:17 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 73.1ms | Allocations: 38203)
+Completed 200 OK in 127ms (Views: 123.4ms | ActiveRecord: 0.0ms | Allocations: 42798)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-14 11:09:19 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 315)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-14 11:09:22 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 22:44:01 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 1591.3ms | Allocations: 92384)
+Completed 500 Internal Server Error in 1873ms (ActiveRecord: 0.0ms | Allocations: 100905)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/MaXiM/Downloads/rk2/rk2/tmp/cache/assets/sprockets/v4.0.0/Um/UmbP8fBgkLisLuvuSF7oBYu8qZ7KbsF2baNX8aE4rKI.cache.21660.13836.458861, C:/Users/MaXiM/Downloads/rk2/rk2/tmp/cache/assets/sprockets/v4.0.0/Um/UmbP8fBgkLisLuvuSF7oBYu8qZ7KbsF2baNX8aE4rKI.cache)):
+  
+sprockets (4.2.1) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.2.1) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.2.1) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.2.1) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.2.1) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.2.1) lib/sprockets/loader.rb:268:in `store_asset'
+sprockets (4.2.1) lib/sprockets/loader.rb:228:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/context.rb:117:in `load'
+sprockets (4.2.1) lib/sprockets/context.rb:145:in `depend_on_asset'
+sprockets (4.2.1) lib/sprockets/context.rb:185:in `link_asset'
+sprockets-rails (3.4.2) lib/sprockets/rails/context.rb:27:in `compute_asset_path'
+actionview (7.1.2) lib/action_view/helpers/asset_url_helper.rb:204:in `asset_path'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:41:in `sourcemap_asset_path'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:34:in `resolved_sourcemap_comment'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:15:in `block in call'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:11:in `gsub'
+sprockets-rails (3.4.2) lib/sprockets/rails/sourcemapping_url_processor.rb:11:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.2) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2023-11-21 22:57:34 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 1573.2ms | Allocations: 45577)
+Completed 200 OK in 1668ms (Views: 1649.0ms | ActiveRecord: 0.0ms | Allocations: 50238)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:04:37 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 289)
+  Rendered layout layouts/application.html.erb (Duration: 402.5ms | Allocations: 39915)
+Completed 200 OK in 724ms (Views: 687.9ms | ActiveRecord: 0.0ms | Allocations: 44511)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:04:45 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 431)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:04:47 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:04:51 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:04:52 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:11:14 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 2.1ms | Allocations: 289)
+  Rendered layout layouts/application.html.erb (Duration: 357.9ms | Allocations: 38135)
+Completed 200 OK in 437ms (Views: 420.2ms | ActiveRecord: 0.0ms | Allocations: 42731)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:12:03 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | Allocations: 13967)
+Completed 200 OK in 72ms (Views: 68.9ms | ActiveRecord: 0.0ms | Allocations: 14858)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:13:44 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 13975)
+Completed 200 OK in 84ms (Views: 81.0ms | ActiveRecord: 0.0ms | Allocations: 14866)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:14:05 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 13960)
+Completed 200 OK in 85ms (Views: 81.9ms | ActiveRecord: 0.0ms | Allocations: 14849)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:14:26 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 199ms (Views: 195.8ms | ActiveRecord: 0.0ms | Allocations: 8456)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:14:33 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:14:34 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:14:35 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:14:37 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:14:40 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:14:41 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:15:48 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 13967)
+Completed 200 OK in 79ms (Views: 75.5ms | ActiveRecord: 0.0ms | Allocations: 14857)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:17:32 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 60.5ms | Allocations: 13975)
+Completed 200 OK in 107ms (Views: 101.1ms | ActiveRecord: 0.0ms | Allocations: 14864)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:17:46 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 13954)
+Completed 200 OK in 84ms (Views: 80.8ms | ActiveRecord: 0.0ms | Allocations: 14843)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:17:53 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 2194)
+Completed 200 OK in 18ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 2438)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:18:08 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 13969)
+Completed 200 OK in 85ms (Views: 82.7ms | ActiveRecord: 0.0ms | Allocations: 14859)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:18:14 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:18:19 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:18:20 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:18:21 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:18:22 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:18:35 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 13966)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.0ms | Allocations: 14855)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:19:35 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 13969)
+Completed 200 OK in 87ms (Views: 83.9ms | ActiveRecord: 0.0ms | Allocations: 14858)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:20:45 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:21:06 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 77.3ms | Allocations: 13968)
+Completed 200 OK in 96ms (Views: 91.9ms | ActiveRecord: 0.0ms | Allocations: 14857)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:21:11 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:21:11 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:21:12 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 8ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:21:13 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:23:07 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 46.9ms | Allocations: 13968)
+Completed 200 OK in 79ms (Views: 75.7ms | ActiveRecord: 0.0ms | Allocations: 14857)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:30:02 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 13962)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 0.0ms | Allocations: 14852)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:30:07 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:30:09 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:30:09 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:30:10 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:30:16 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 13ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 176)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:30:19 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 13ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:33:07 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 60.5ms | Allocations: 13960)
+Completed 200 OK in 109ms (Views: 104.8ms | ActiveRecord: 0.0ms | Allocations: 14849)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:33:12 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:33:18 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:34:49 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 13948)
+Completed 200 OK in 82ms (Views: 78.5ms | ActiveRecord: 0.0ms | Allocations: 14837)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:34:52 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:34:53 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 2234)
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 2480)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:34:55 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:34:55 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2237)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 2482)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:34:58 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:34:58 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 2225)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 2470)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:35:00 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:00 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2249)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 2494)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:35:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:02 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2240)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2485)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:04 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 2215)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 2459)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:35:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:06 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2246)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 2491)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:14 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2209)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 2453)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:35:17 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:17 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 2273)
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 2518)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:41 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 201.8ms | Allocations: 38032)
+Completed 200 OK in 256ms (Views: 243.9ms | ActiveRecord: 0.0ms | Allocations: 42628)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:35:46 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:47 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 2229)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 2475)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:35:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:48 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 2229)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 2474)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:35:50 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:35:50 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 2247)
+Completed 200 OK in 38ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 2492)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:36:07 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 2201)
+Completed 200 OK in 29ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 2449)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:36:27 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 13967)
+Completed 200 OK in 76ms (Views: 72.1ms | ActiveRecord: 0.0ms | Allocations: 14856)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:36:32 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 306)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:36:33 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:37:13 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 63.1ms | Allocations: 13966)
+Completed 200 OK in 79ms (Views: 75.6ms | ActiveRecord: 0.0ms | Allocations: 14855)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:37:18 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:37:56 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 13978)
+Completed 200 OK in 97ms (Views: 94.5ms | ActiveRecord: 0.0ms | Allocations: 14867)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:38:00 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:38:17 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 46.2ms | Allocations: 13969)
+Completed 200 OK in 79ms (Views: 76.2ms | ActiveRecord: 0.0ms | Allocations: 14858)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:38:23 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:38:24 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 2240)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 2485)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:38:25 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:38:26 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2255)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 2500)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:38:27 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 2197)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 2441)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:38:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:38:29 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 2267)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 2512)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:38:35 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 4.0ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 62.0ms | Allocations: 13983)
+Completed 200 OK in 103ms (Views: 98.9ms | ActiveRecord: 0.0ms | Allocations: 14872)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:38:39 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:39:01 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 13984)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.0ms | Allocations: 14873)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:39:05 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:47:02 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 13960)
+Completed 200 OK in 77ms (Views: 74.7ms | ActiveRecord: 0.0ms | Allocations: 14849)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:47:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:47:07 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 2237)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 2482)
+
+
+Started GET "/output?arrayInput=" for 127.0.0.1 at 2023-11-21 23:47:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:47:09 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2225)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 2470)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:48:41 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 13981)
+Completed 200 OK in 87ms (Views: 83.5ms | ActiveRecord: 0.0ms | Allocations: 14870)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:48:46 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:48:48 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:48:50 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:48:52 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:48:53 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:08 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:10 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:49:21 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 50.2ms | Allocations: 13975)
+Completed 200 OK in 77ms (Views: 74.3ms | ActiveRecord: 0.0ms | Allocations: 14864)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:24 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 198)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:26 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:27 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:28 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:29 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:30 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:31 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:32 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:33 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:34 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:49:44 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 52.8ms | Allocations: 13978)
+Completed 200 OK in 88ms (Views: 83.9ms | ActiveRecord: 0.0ms | Allocations: 14867)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:47 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:48 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:49 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:49:51 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:50:27 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 46.6ms | Allocations: 13966)
+Completed 200 OK in 75ms (Views: 72.7ms | ActiveRecord: 0.0ms | Allocations: 14855)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:50:30 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 1)
+Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/output?arrayInput=149+84+34+63+158" for 127.0.0.1 at 2023-11-21 23:50:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:50:31 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2234)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 2479)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:50:33 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:50:34 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/output?arrayInput=2+46+190+134+58+89+157+12+139+70+63+64+108+130+182+192+5+123+92" for 127.0.0.1 at 2023-11-21 23:50:35 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:50:35 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 2225)
+Completed 200 OK in 18ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 2470)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:50:40 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/output?arrayInput=159+181+48+136+133+117+155+95+94+44" for 127.0.0.1 at 2023-11-21 23:50:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:50:41 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2258)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 2503)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:51:13 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2209)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 2453)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:51:14 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:51:15 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 176)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:51:19 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/output?arrayInput=155+147+192" for 127.0.0.1 at 2023-11-21 23:51:19 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:51:19 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2237)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 2482)
+
+
+Started GET "/output?arrayInput=7+17+49" for 127.0.0.1 at 2023-11-21 23:51:25 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:51:25 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 2231)
+Completed 200 OK in 25ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 2476)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:52:02 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 2.1ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 74.8ms | Allocations: 13956)
+Completed 200 OK in 91ms (Views: 87.0ms | ActiveRecord: 0.0ms | Allocations: 14845)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:52:07 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/output?arrayInput=123+155+62+21+161+15+12" for 127.0.0.1 at 2023-11-21 23:52:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:52:08 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2237)
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 2482)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:52:29 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.5ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 46.4ms | Allocations: 13972)
+Completed 200 OK in 75ms (Views: 72.3ms | ActiveRecord: 0.0ms | Allocations: 14862)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:52:32 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:52:47 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 13963)
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 0.0ms | Allocations: 14852)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:52:50 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:52:53 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:53:03 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:53:04 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:53:06 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:53:07 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 176)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:53:09 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-21 23:59:10 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2191)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 2435)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:59:12 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:59:13 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:59:13 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:59:15 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:59:15 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:59:16 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-21 23:59:17 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:00:58 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 46.8ms | Allocations: 13969)
+Completed 200 OK in 82ms (Views: 79.1ms | ActiveRecord: 0.0ms | Allocations: 14858)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:01:02 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:01:07 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:01:08 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:01:11 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:01:12 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:03:01 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 56.2ms | Allocations: 13957)
+Completed 200 OK in 96ms (Views: 92.4ms | ActiveRecord: 0.0ms | Allocations: 14846)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:03:43 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:03:45 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:03:47 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:03:49 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:03:50 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 10ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:04:17 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 2200)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 2444)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:18 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:19 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:20 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:36 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:37 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:49 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:50 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:52 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:04:53 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:10:13 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 196.5ms | Allocations: 38096)
+Completed 200 OK in 278ms (Views: 258.8ms | ActiveRecord: 0.0ms | Allocations: 42692)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:10:15 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 322)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:10:16 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:23:20 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 420.3ms | Allocations: 38171)
+Completed 200 OK in 527ms (Views: 506.6ms | ActiveRecord: 0.0ms | Allocations: 42767)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:23:36 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 13ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:23:38 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:23:38 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:23:39 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:23:40 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:23:58 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 48.2ms | Allocations: 13969)
+Completed 200 OK in 83ms (Views: 80.3ms | ActiveRecord: 0.0ms | Allocations: 14859)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:24:02 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:24:03 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:24:22 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 13963)
+Completed 200 OK in 98ms (Views: 93.9ms | ActiveRecord: 0.0ms | Allocations: 14852)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 00:24:39 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 13999)
+Completed 200 OK in 92ms (Views: 89.1ms | ActiveRecord: 0.0ms | Allocations: 14888)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:24:45 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:24:46 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:24:48 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:24:49 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 00:24:52 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 14:59:49 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 520.9ms | Allocations: 37961)
+Completed 200 OK in 769ms (Views: 742.9ms | ActiveRecord: 0.0ms | Allocations: 42563)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 14:59:55 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:01:09 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 13962)
+Completed 200 OK in 56ms (Views: 52.9ms | ActiveRecord: 0.0ms | Allocations: 14853)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:13 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 509)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:15 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:16 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 478)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:16 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 479)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:17 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:17 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:17 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:18 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:18 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:19 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:19 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:19 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:20 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:20 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:21 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:21 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:21 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:22 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:22 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:23 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:23 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:23 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:24 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:24 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:25 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:25 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:01:36 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:02:05 +0300
+Processing by ProxyController#generate_random_array as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 477)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/proxy_controller.rb:17:in `rand'
+app/controllers/proxy_controller.rb:17:in `block in generate_random_array'
+app/controllers/proxy_controller.rb:17:in `initialize'
+app/controllers/proxy_controller.rb:17:in `new'
+app/controllers/proxy_controller.rb:17:in `generate_random_array'
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:03:30 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 44.4ms | Allocations: 13972)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 0.0ms | Allocations: 14862)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:03:34 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:03:37 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:03:38 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:03:40 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:10:21 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 13990)
+Completed 200 OK in 56ms (Views: 53.9ms | ActiveRecord: 0.0ms | Allocations: 14879)
+
+
+Started GET "/output?arrayInput=1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25" for 127.0.0.1 at 2023-11-22 15:10:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:10:24 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2231)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 2476)
+
+
+Started GET "/output?arrayInput=1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25" for 127.0.0.1 at 2023-11-22 15:10:25 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:10:25 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2235)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2480)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:11:47 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 209)
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 13981)
+Completed 200 OK in 60ms (Views: 57.4ms | ActiveRecord: 0.0ms | Allocations: 14870)
+
+
+Started GET "/output?arrayInput=1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25" for 127.0.0.1 at 2023-11-22 15:11:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:11:50 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2219)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2464)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:12:41 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 13983)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.0ms | Allocations: 14872)
+
+
+Started GET "/output?arrayInput=1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25" for 127.0.0.1 at 2023-11-22 15:12:44 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:12:44 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2244)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 2489)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:12:48 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2203)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2447)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:13:58 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 44.3ms | Allocations: 13966)
+Completed 200 OK in 78ms (Views: 74.5ms | ActiveRecord: 0.0ms | Allocations: 14856)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:14:02 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:14:04 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:14:05 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 176)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:17:30 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 41.3ms | Allocations: 13972)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 14861)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:17:34 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:17:35 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:17:36 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:20:11 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 13970)
+Completed 200 OK in 71ms (Views: 68.2ms | ActiveRecord: 0.0ms | Allocations: 14859)
+
+
+Started GET "/output?arrayInput=1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25" for 127.0.0.1 at 2023-11-22 15:20:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:20:15 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2246)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 2491)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:20:15 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/output?arrayInput=-42+-33+-27+-19+35+14+29+27" for 127.0.0.1 at 2023-11-22 15:20:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:20:16 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2246)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2491)
+
+
+Started GET "/output?arrayInput=1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25" for 127.0.0.1 at 2023-11-22 15:20:17 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:20:17 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2258)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2503)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:20:18 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/output?arrayInput=22+-11+14+-11+21" for 127.0.0.1 at 2023-11-22 15:20:19 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:20:20 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2234)
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 2479)
+
+
+Started GET "/output?arrayInput=0+0+0" for 127.0.0.1 at 2023-11-22 15:20:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:20:30 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2231)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 2476)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:21:12 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 34.7ms | Allocations: 13979)
+Completed 200 OK in 59ms (Views: 56.3ms | ActiveRecord: 0.0ms | Allocations: 14868)
+
+
+Started GET "/output?arrayInput=-5+-4+-3+-2+-1+0+1+2+3" for 127.0.0.1 at 2023-11-22 15:21:15 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:21:16 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2228)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2473)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:23:13 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 13959)
+Completed 200 OK in 71ms (Views: 66.5ms | ActiveRecord: 0.0ms | Allocations: 14848)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:17 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 196)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:23:34 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 42.5ms | Allocations: 13984)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.0ms | Allocations: 14873)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:37 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:38 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:38 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:39 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:40 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:40 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:41 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:41 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:42 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:43 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:43 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:44 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:44 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:45 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:46 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:46 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:47 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:47 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:23:48 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:24:14 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 13984)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.0ms | Allocations: 14873)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:24:18 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:24:20 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:24:21 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:24:22 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:24:23 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 176)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:24:24 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:24:54 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 13963)
+Completed 200 OK in 58ms (Views: 56.1ms | ActiveRecord: 0.0ms | Allocations: 14852)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:25:10 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 13972)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 0.0ms | Allocations: 14864)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:25:27 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 13969)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.0ms | Allocations: 14858)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:26:27 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 13957)
+Completed 200 OK in 81ms (Views: 77.6ms | ActiveRecord: 0.0ms | Allocations: 14846)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:26:33 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:26:35 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:26:36 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:26:56 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 207)
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 13970)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.0ms | Allocations: 14859)
+
+
+Started GET "/output?arrayInput=-6+-5+-4+-3+-2+-1+1+2+3" for 127.0.0.1 at 2023-11-22 15:26:59 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:26:59 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2234)
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 2479)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:27:00 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/output?arrayInput=37+-37+20+33+-2+-30+47+22+-35+-27+13+-19+-8+-23+20+-37" for 127.0.0.1 at 2023-11-22 15:27:01 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:27:01 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2243)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 2488)
+
+
+Started GET "/output?arrayInput=-6+-5+-4+-3+-2+-1+1+2+3" for 127.0.0.1 at 2023-11-22 15:27:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:27:03 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2246)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2491)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:27:03 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/output?arrayInput=-39+-35+-37+-24+-10+-11+48+-38+-50+-50" for 127.0.0.1 at 2023-11-22 15:27:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:27:04 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2234)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2479)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:27:06 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/output?arrayInput=-43+-36+30+43+-7+-29+-19+42+44+16+20+-47+38+-43+-39+4+-19+46" for 127.0.0.1 at 2023-11-22 15:27:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:27:06 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2238)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 2483)
+
+
+Started GET "/output?arrayInput=-6+-5+-4+-3+-2+-1+1+2+3" for 127.0.0.1 at 2023-11-22 15:27:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:27:07 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2252)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 2497)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:27:25 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 34.9ms | Allocations: 13978)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 14867)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:27:28 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:27:57 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2209)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2453)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:27:58 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:27:59 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:00 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:28:09 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 197)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 13860)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 14747)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:11 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:12 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:13 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:14 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:15 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:16 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:17 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:18 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:20 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:22 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:28:37 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 201)
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 13872)
+Completed 200 OK in 54ms (Views: 51.0ms | ActiveRecord: 0.0ms | Allocations: 14760)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:41 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:42 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:42 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:44 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:28:45 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:29:10 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2240)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 2484)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:11 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:12 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:13 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:29:29 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2206)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 2452)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:30 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:31 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:32 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:33 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:29:34 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:30:31 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 13978)
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.0ms | Allocations: 14867)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:30:34 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 196)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:30:38 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:30:43 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:30:44 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:30:46 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:31:59 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 13968)
+Completed 200 OK in 67ms (Views: 63.7ms | ActiveRecord: 0.0ms | Allocations: 14853)
+
+
+Started GET "/output?arrayInput=-6+-5+-4+-3+-2+-1+1+2+3" for 127.0.0.1 at 2023-11-22 15:32:03 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:32:03 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2234)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 2479)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:32:04 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/output?arrayInput=-26+13+20+-35+45+28+19+-4+-39+13+42+24+-2+11+39" for 127.0.0.1 at 2023-11-22 15:32:05 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:32:05 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2240)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 2485)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:32:06 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/output?arrayInput=-39+-10+-11+-22+34+-20+-40+10+40+-33+36" for 127.0.0.1 at 2023-11-22 15:32:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:32:07 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2240)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2485)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:33:47 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 13964)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms | Allocations: 14853)
+
+
+Started GET "/output?arrayInput=-6+-5+-4+-3+-2+-1+" for 127.0.0.1 at 2023-11-22 15:33:51 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:33:52 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2228)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 2473)
+
+
+Started GET "/output?arrayInput=-6+-5+-4+-3+-2+-1" for 127.0.0.1 at 2023-11-22 15:33:54 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:33:54 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2234)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 2479)
+
+
+Started GET "/output?arrayInput=-6+-5+-4+-3" for 127.0.0.1 at 2023-11-22 15:33:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:33:57 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2234)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 2479)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:33:58 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/output?arrayInput=-11+-45" for 127.0.0.1 at 2023-11-22 15:33:58 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/output"):
+  
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:33:58 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2246)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2491)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:34:26 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 201)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 13955)
+Completed 200 OK in 57ms (Views: 54.5ms | ActiveRecord: 0.0ms | Allocations: 14844)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:34:30 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:34:31 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:34:32 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:34:58 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 293)
+  Rendered layout layouts/application.html.erb (Duration: 133.5ms | Allocations: 37912)
+Completed 200 OK in 176ms (Views: 167.3ms | ActiveRecord: 0.0ms | Allocations: 42508)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:35:00 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 306)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:35:01 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:35:02 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:35:03 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:35:04 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:35:38 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 13962)
+Completed 200 OK in 61ms (Views: 58.9ms | ActiveRecord: 0.0ms | Allocations: 14852)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:35:47 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2216)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2461)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:18 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:19 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:20 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:21 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:55 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:55 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:57 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:36:58 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:37:52 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 13978)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.0ms | Allocations: 14867)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:37:57 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:38:08 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 191)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:39:18 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 13971)
+Completed 200 OK in 83ms (Views: 79.7ms | ActiveRecord: 0.0ms | Allocations: 14861)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:39:53 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 62.7ms | Allocations: 13965)
+Completed 200 OK in 107ms (Views: 103.9ms | ActiveRecord: 0.0ms | Allocations: 14854)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:40:14 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 13967)
+Completed 200 OK in 76ms (Views: 73.0ms | ActiveRecord: 0.0ms | Allocations: 14856)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:40:20 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:40:53 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 13963)
+Completed 200 OK in 94ms (Views: 90.9ms | ActiveRecord: 0.0ms | Allocations: 14852)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:40:57 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:40:59 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:41:02 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:41:04 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:42:46 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 2194)
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 2438)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:47 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 186)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:49 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:50 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:51 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:52 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 178)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:52 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:53 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:54 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:42:57 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:43:15 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:43:44 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 75.2ms | Allocations: 14006)
+Completed 200 OK in 123ms (Views: 119.1ms | ActiveRecord: 0.0ms | Allocations: 14896)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:43:48 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:43:49 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:44:22 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:45:08 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 190)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:45:09 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:45:10 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:45:24 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 2212)
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 2456)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:47:43 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 63.5ms | Allocations: 13974)
+Completed 200 OK in 113ms (Views: 108.7ms | ActiveRecord: 0.0ms | Allocations: 14863)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:48 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:49 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:50 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:51 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:52 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:53 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:54 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 189)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:55 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:47:55 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:49:44 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 51.2ms | Allocations: 13971)
+Completed 200 OK in 87ms (Views: 84.3ms | ActiveRecord: 0.0ms | Allocations: 14860)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:51:34 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 13975)
+Completed 200 OK in 115ms (Views: 112.2ms | ActiveRecord: 0.0ms | Allocations: 14864)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:52:50 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 2209)
+Completed 200 OK in 27ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 2453)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:56:25 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 59.9ms | Allocations: 13965)
+Completed 200 OK in 75ms (Views: 71.5ms | ActiveRecord: 0.0ms | Allocations: 14854)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:56:30 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:56:31 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 15:56:32 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 15:56:36 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 2197)
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 2441)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 16:03:36 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 7ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 16:03:38 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-22 16:05:55 +0300
+Processing by ProxyController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 2216)
+Completed 200 OK in 40ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 2461)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 16:06:46 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 9ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/generate_random_array" for 127.0.0.1 at 2023-11-22 16:07:05 +0300
+Processing by ProxyController#generate_random_array as */*
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 16ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+

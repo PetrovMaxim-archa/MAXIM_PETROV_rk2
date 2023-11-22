@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Петров Максим ИУ6-33Б</title>
+        <style>
+            input {
+                margin-left: 20px;
+                margin: 20px;
+                font-size: large;
+                width: 550px;
+                }
+            h1{
+                margin-left: 20px;
+                background-color: limegreen;
+                text-align: center;
+                }
+            button{
+                background-color: limegreen;
+                height: 30px;
+                width: 400px;
+                margin-left: 20px;
+                }
+            h3{
+                font-weight: 200;
+                margin-left: 20px;
+                }
+            body {
+                background-color: lightgreen;
+                }
+        </style>
+        <script>
+            function findQuotient() {
+                var inputValue = document.getElementById("arrayInput").value;
+                if (inputValue.trim() === "") {
+                    alert("Введите значения");
+                    return;
+                }
+                var arr_x = inputValue.split(' ').map(Number);
+                let quotient = 1.0;
+                let negativeCount = 0;
+                let positiveCount = 0;
+                if (arr_x.some(isNaN)) {
+                    alert("Массив должен состоять только из цифр");
+                    return;
+                }
+                for (let i = 0; i < arr_x.length; i++) {
+                    if (arr_x[i] < 0) {
+                        negativeCount++;
+                    } else if (arr_x[i] > 0) {
+                        positiveCount++;
+                    }
+                }
+                if (positiveCount === 0) {
+                    document.getElementById("result").innerHTML ="Нет положителных элементов"
+                }
+                else{
+                    quotient = negativeCount / positiveCount
+                    document.getElementById("result").innerHTML = "Массив: " + arr_x.join(" ") + "<br>" + "Искомое частное элементов массива: " + quotient;
+                }
+            }
+            function generateRandomArray() {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        document.getElementById("arrayInput").value = xhr.responseText;
+                    }
+                };
+                xhr.open('GET', '/generate_random_array', true);
+                xhr.send();
+            }
+        </script>   
+    </head>
+    <body>
+        <h1>
+            Яызки интернет-программирования. РК2<br>
+            Петров Максим. ИУ6-33Б. Билет 19
+        </h1>
+        <h3>
+            <strong><u>Задание:</u> </strong>Дан массив чисел arr_x. Найти частное от деления количества отрицательных элементов на количество положительных. <br>Если положительных нет – выдать соответствующее сообщение.
+        </h3>
+        <h3>
+            Введите элементы массива через пробел
+        </h3>
+        <form action="/output" method="get">
+            <input type="text" id="arrayInput" name="arrayInput" value="-6 -5 -4 -3 -2 -1 1 2 3"><br>
+            <button type="submit" onclick="findQuotient(); return false;">Найти частное</button>
+        </form><br>
+        <button type="button" onclick="generateRandomArray()">Сгенерировать случайные данные</button>
+        <h3><p id="result"></p></h3>
+    </body>
+</html>
